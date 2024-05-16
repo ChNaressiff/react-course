@@ -11,8 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
     background-color: aqua;
+    gap: 30px;
 }
 
 .card{
@@ -29,15 +29,44 @@ h1{
 }
 
 h1:hover{
-    color: red;
+    color: darkorchid;
     
 }
 
 p{
     font-size: 25px;
-    color: blue;
+    color: darkblue;
 }
 
 p:hover{
-    color:darkblue;
+    color: blue;
+}
+
+.banner{
+    width: 400px;
+    height: 250px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner:hover{
+    background-color: lightslategray;
+}
+
+.banner h2{
+    font-size: 30px;
+    color: burlywood;
+}
+.banner p{
+    font-size: 15px;
+    color: burlywood;
+}
+
+.banner img{
+    width: 100px;
+    height: 100px;
 }
