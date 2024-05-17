@@ -1,72 +1,35 @@
-*{
+/* *{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
     margin: 0;
+    border: none;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: aqua;
-    gap: 30px;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-h1{
-    font-size: 40px;
-    color: purple;
-}
-
-h1:hover{
-    color: darkorchid;
-    
-}
-
-p{
-    font-size: 25px;
-    color: darkblue;
-}
-
-p:hover{
-    color: rgb(0, 68, 255);
-}
-
-.banner{
-    width: 400px;
-    height: 250px;
-    background-color: cadetblue;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-.banner:hover{
-    background-color: lightslategray;
-}
-
-.banner h2{
-    font-size: 30px;
-    color: burlywood;
-}
-.banner p{
-    font-size: 15px;
-    color: burlywood;
-}
-
-.banner img{
-    width: 100px;
-    height: 100px;
-}
+    gap: 40px;  
+  }
+  
+  .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  
+  .card h1 {
+      font-size: 40px;
+      color: purple;
+  }
+  
+  .card p {
+      font-size: 25px;
+      color: blue;
+  } */
