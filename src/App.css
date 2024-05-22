@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
@@ -32,4 +32,4 @@ body {
   .card p {
       font-size: 25px;
       color: blue;
-  } */
+  }

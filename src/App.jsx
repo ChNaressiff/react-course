@@ -1,15 +1,13 @@
 import "./App.css"
+import Content from "./Components/team/components/content";
 
-import Layout from "./Components/Layout";
 
 function App() {
   return (
     <body>
-      {/* <div className="card">
-        <h1>React Course</h1>
-        <p>Front-End Javascript</p>
-      </div> */}
-      <Layout />
+
+      <Content />
+
     </body>
   );
 }
